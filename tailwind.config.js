@@ -13,6 +13,13 @@ export default {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
     },
+    screens: {
+      'md': '810px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1200px',
+      // => @media (min-width: 1024px) { ... }
+    },
     extend: {},
   },
   plugins: [],
